@@ -1,64 +1,40 @@
-Codeforces Tracker
-A real-time analytics and tracking dashboard built to help competitive programmers monitor their progress on Codeforces.
+# 📊 Codeforces Tracker & Assistant
 
-Live Demo: https://codeforces-tracker-52.vercel.app/
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://codeforces-tracker-52.vercel.app/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-🚀 Features
-User Statistics: Visual representation of rating changes and contest performance.
+A powerful, real-time analytics dashboard designed for competitive programmers. This tool fetches data directly from the **Codeforces API** to provide deep insights into user performance, problem-solving patterns, and rating trajectories.
 
-Problem Analysis: Breakdown of solved problems by tags and difficulty levels.
+---
 
-Submission History: A clean overview of recent submissions and success rates.
+## ✨ Key Features
 
-Responsive UI: Fully optimized for both desktop and mobile viewing.
+* **📈 Advanced Rating Analytics:** Visual representation of rating changes over time with interactive charts.
+* **🎯 Problem Tag Breakdown:** Detailed heatmap and pie charts showing which topics (DP, Graphs, Greedy, etc.) you excel in.
+* **⚡ Submission Tracking:** Real-time monitoring of recent submissions and success rates.
+* **📱 Fully Responsive:** Clean, modern UI built with **Tailwind CSS**, optimized for mobile and desktop tracking.
+* **🚀 Fast Performance:** Built using **Vite** for lightning-fast load times and smooth transitions.
 
-🛠️ Tech Stack
-Frontend: React.js, TypeScript
+---
 
-Styling: Tailwind CSS
+## 🛠️ Tech Stack
 
-Bundler: Vite
+| Technology | Purpose |
+| :--- | :--- |
+| **React + TS** | Core UI development with strict typing for reliability. |
+| **Tailwind CSS** | Modern, utility-first styling for a sleek look. |
+| **Recharts / Chart.js** | Data visualization for complex competitive programming stats. |
+| **Codeforces API** | Real-time data retrieval for user profiles and contests. |
+| **Vercel** | Seamless CI/CD and production hosting. |
 
-API: Codeforces API
+---
 
-Deployment: Vercel
+## 🚀 Getting Started
 
-📦 Installation & Setup
-To run this project locally, follow these steps:
+To run a local instance of this tracker:
 
-Clone the repository:
-
-Bash
-git clone https://github.com/Bhumik-47/your-repo-name.git
-Navigate to the project directory:
-
-Bash
-cd your-repo-name
-Install dependencies:
-
-Bash
-npm install
-Start the development server:
-
-Bash
-npm run dev
-📝 Usage
-Simply enter your Codeforces handle in the search bar to fetch and visualize your data. The tracker uses the official Codeforces API to provide the most up-to-date information.
-
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-How to add this to your project:
-In VS Code, create a new file named README.md in your project's root folder.
-
-Paste the content above into it.
-
-Save the file.
-
-Run these commands in your terminal to update GitHub:
-
-Bash
-git add README.md
-git commit -m "docs: add project documentation"
-git push origin main
-This will make your GitHub repository look very professional to anyone visiting it!
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/Bhumik-47/Codeforces-Assistant.git](https://github.com/Bhumik-47/Codeforces-Assistant.git)
