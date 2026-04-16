@@ -31,10 +31,4 @@ A powerful, real-time analytics dashboard designed for competitive programmers. 
 
 ---
 
-## 🚀 Getting Started
 
-To run a local instance of this tracker:
-
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/Bhumik-47/Codeforces-Assistant.git](https://github.com/Bhumik-47/Codeforces-Assistant.git)
